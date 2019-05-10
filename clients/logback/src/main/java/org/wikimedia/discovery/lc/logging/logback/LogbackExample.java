@@ -42,7 +42,9 @@ public class LogbackExample {
         }
     }
 
-    @SuppressFBWarnings(value = "MRC_METHOD_RETURNS_CONSTANT", justification = "yep, this is just an example")
+    @SuppressFBWarnings(
+            value = "MRC_METHOD_RETURNS_CONSTANT",
+            justification = "yep, this is just an example")
     private String authenticate() {
         return "my_user";
     }
