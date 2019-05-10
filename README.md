@@ -1,12 +1,13 @@
 # Random thoughts
 
 * functional vs technical logging hierarchy
-* logging API vs backend
+* logging API/frontend vs backend
 * backend and compile / runtime dependency
 * test vs production configuration
 * performance / cost of not logging
 * log.isDebugEnabled()
 * garbage free logging
+* [async logging](https://logback.qos.ch/manual/appenders.html#AsyncAppender)
 * [MDC](https://logback.qos.ch/manual/mdc.html)
 * [MDCInsertingServletFilter](https://logback.qos.ch/manual/mdc.html#mis)
 * [additivity](https://logback.qos.ch/manual/configuration.html#overrridingCumulativity)
