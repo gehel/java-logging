@@ -12,6 +12,7 @@
     <modules>
         <module>backends-logback</module>
         <module>backends-log4j</module>
+        <module>backends-log4j2-ecs</module>
     </modules>
 
 </project>

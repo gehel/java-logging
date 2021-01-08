@@ -48,6 +48,7 @@
         <system>GitHub</system>
         <url>https://github.com/gehel/java-logging</url>
     </issueManagement>
+
     <properties>
         <slf4j.version>1.8.0-beta4</slf4j.version>
     </properties>
@@ -58,6 +59,11 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
                 <version>1.3.0-alpha4</version>
+            </dependency>
+            <dependency>
+                <groupId>co.elastic.logging</groupId>
+                <artifactId>log4j2-ecs-layout</artifactId>
+                <version>1.0.0.RC1</version>
             </dependency>
             <dependency>
                 <groupId>commons-logging</groupId>
