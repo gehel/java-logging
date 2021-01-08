@@ -20,4 +20,13 @@ public class Log4j2BackendTests {
             log.info("Some info message");
         }
     }
+
+    @Test
+    public void exception() {
+        try {
+            throw new IllegalStateException("Just for test");
+        } catch (IllegalStateException ise) {
+            log.error("Exception raised", ise);
+        }
+    }
 }
